@@ -1,0 +1,32 @@
+[
+    {
+        "date": "2025-03-15",
+        "amount": 20.5,
+        "category": "Food",
+        "description": "Lunch at cafe"
+    },
+    {
+        "date": "2025-03-16",
+        "amount": 12.99,
+        "category": "Transport",
+        "description": "Bus ticket"
+    },
+    {
+        "date": "2025-03-17",
+        "amount": 45.75,
+        "category": "Entertainment",
+        "description": "Movie tickets"
+    },
+    {
+        "date": "2025-03-18",
+        "amount": 100.0,
+        "category": "Rent",
+        "description": "Monthly rent payment"
+    },
+    {
+        "date": "2025-03-18",
+        "amount": 19.99,
+        "category": "Entertainment",
+        "description": "Movie tickets"
+    }
+]
