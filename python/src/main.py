@@ -1,5 +1,4 @@
 # Starting Point
- main
 from cli import run_cli
 
 if __name__ == "__main__":
