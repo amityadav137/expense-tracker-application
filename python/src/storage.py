@@ -17,6 +17,8 @@ def load_expenses():
             return []
 
 def save_expenses(expenses):
+    expenses.sort(key = lambda x: x.date) # make sure transactions are sorted
+
     with open(DATA_FILE, "w") as file:
         json.dump([exp.to_dict() for exp in expenses], file, indent=4)
 
