@@ -8,7 +8,7 @@
 
 class ExpenseTracker {
 private:
-    std::vector<Expense> expenses;
+    std::vector<Expense> expenses;//vector of expenses
     
 public:
     // Adds a new expense to the tracker.
@@ -20,10 +20,13 @@ public:
     //Deletes an existing expense in the tracker.
     void deleteExpense(const int index);
     
+    //Gets the details of an expense by index.
     void getExpensesByIndex(const int index);
 
+    // Sets the entire list of expenses.
     void setExpenses(const std::vector<Expense>& expenses);
 
+    // Returns the entire list of expenses.
     std::vector<Expense> getExpenses();
 
     // Returns expenses within the provided date range.
