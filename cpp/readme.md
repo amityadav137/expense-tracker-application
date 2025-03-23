@@ -75,7 +75,7 @@ A simple Expense Tracker application built in C++. This guide provides step-by-s
    ```bash
    g++ -std=c++20 main.cpp ExpenseTracker.cpp ExpenseStorage.cpp -o ExpenseTrackerApp
    ```
-   > **Note:** Although the compile command names the executable as `ExpenseTrackerApp`, the provided instructions indicate running the executable as `ExpenseTracker.exe`. Ensure that your output name is consistent with the command you use to run the application.
+   > **Note:** Although the compile command names the executable as `ExpenseTrackerApp`, the provided instructions indicate running the executable as `ExpenseTrackerApp.exe`. Ensure that your output name is consistent with the command you use to run the application.
 
 2. **Run the Application:**  
    From the same directory, execute:
