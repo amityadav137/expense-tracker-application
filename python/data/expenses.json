@@ -28,5 +28,11 @@
         "amount": 19.99,
         "category": "Entertainment",
         "description": "Movie tickets"
+    },
+    {
+        "date": "2025-03-23",
+        "amount": 100.0,
+        "category": "groceries",
+        "description": "vegetables,groceries"
     }
 ]
